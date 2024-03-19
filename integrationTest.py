@@ -5,7 +5,7 @@ class TestShopping(unittest.TestCase):
         Cart=ShoppingCart()
         total=Cart.getCart()
         self.assertEqual(total,0.0)
-    # test for getting the correct total value
+    # test for getting the correct val
     def testGetCartProduct(self):
         Cart=ShoppingCart()
         Cart.addProduct(Product('a',20.0,2))
