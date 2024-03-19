@@ -1,8 +1,9 @@
 name: CI/CD Exercise
 
 on:
-  branches:
-     -main
+  push: 
+    branches:
+      -main
 
 jobs:
   python:
